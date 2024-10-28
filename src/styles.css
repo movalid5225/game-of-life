@@ -1,0 +1,103 @@
+body{
+    background-color: #FBBF94;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+}
+
+#header{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 28px 0px 28px;
+    background-color: #D9D9D9;
+    color: black;
+    font-weight: 600;
+}
+#home{
+    padding-left:50px;
+}
+ 
+#header 
+#right{
+    display: flex;
+    gap:150px;
+    padding-right: 50px;
+}
+
+#heading{
+    font-size: 100px;
+    font-weight: bolder;
+    margin:70px 0px 100px;
+}
+#welcome{
+    font-size: 18px;
+}
+
+#get-started{
+    margin: 100px;
+    border-radius: 5px;
+    border: none;
+    padding:22px 66px ;
+    background-color: #84D3B4;
+    font-size: 20px;
+}
+
+/* Home page styling */
+
+#home-body{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+    color: black;
+}
+
+#today-goals{
+    display: flex;
+    margin-top: 100px;
+}
+
+#add-goal{
+    border-radius: 5px;
+    border: none;
+    background-color:  #84D3B4;
+    padding: 5px 20px;
+    font-size: 12px;
+}
+
+#add-goal:hover{
+    background-color: #93e9c6;
+    font-size: 20px;
+}
+
+#categories{
+    display: flex;
+    gap:100px;
+}
+
+#categories > div{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#timespan{
+    display:flex;
+    gap:100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+*{
+    margin: 0;
+}
+
